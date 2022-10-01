@@ -1,9 +1,10 @@
 import telebot
 from telebot import types
 from parser import parser
+from bot import config
 
 
-api_key = "5526650738:AAG0gtX7XWvKuc7oVJH2MTEZ7NOJbzlUnRE"
+api_key = config.token
 
 
 joke_bot = telebot.TeleBot(api_key)
